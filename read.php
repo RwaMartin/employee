@@ -66,10 +66,10 @@ if(isset($_GET["id"]) && !empty(trim($_GET["id"]))){
         <div class="container-fluid">
             <div class="row">
                 <div class="col-md-12">
+                    <h3><?php echo $row["name"]; ?>'s Details are below:</h3> <br>
                     <table class="table">
                         <thead>
                             <tr>
-      
                                 <th scope="col">Name</th>
                                 <th scope="col">Address</th>
                                 <th scope="col">Salary</th>
